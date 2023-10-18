@@ -1,14 +1,14 @@
 helm:
   parameters:
   - name: frontend.image
-    value: lyzhang1999/frontend
+    value: zhangmz0223/frontend
     forcestring: true
   - name: frontend.tag
-    value: "2682590"
+    value: "9b309c5f381a"
     forcestring: true
   - name: backend.image
-    value: lyzhang1999/backend
+    value: zhangmz0223/backend
     forcestring: true
   - name: backend.tag
-    value: "2682590"
+    value: "fafa2a1dc24a"
     forcestring: true
