@@ -32,9 +32,9 @@ spec:
           requests:
             memory: "128Mi"
             cpu: "128m"
-          limits:
-            memory: "256Mi"
-            cpu: "256m"
+          # limits:
+          #   memory: "256Mi"
+          #   cpu: "256m"
         readinessProbe: 
           httpGet:
             path: /healthy
