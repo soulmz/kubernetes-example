@@ -1,13 +1,13 @@
 frontend:
   image: zhangmz0223/frontend
-  tag: '9b309c5f381a'
-  autoscaling:
-    averageUtilization: 90
+  tag: 'b50af7a'
+  # autoscaling:
+  #   averageUtilization: 90
 backend:
   image: zhangmz0223/backend
-  tag: 'fafa2a1dc24a'
-  autoscaling:
-    averageUtilization: 90
+  tag: 'ce2fbea'
+  # autoscaling:
+  #   averageUtilization: 90
 database:
   enabled: true
   uri: pg-service
