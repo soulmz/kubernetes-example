@@ -4,11 +4,11 @@ helm:
     value: zhangmz0223/frontend
     forcestring: true
   - name: frontend.tag
-    value: "9b309c5f381a"
+    value: "ce2fbea"
     forcestring: true
   - name: backend.image
     value: zhangmz0223/backend
     forcestring: true
   - name: backend.tag
-    value: "fafa2a1dc24a"
+    value: "ff84440"
     forcestring: true
