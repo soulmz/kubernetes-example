@@ -1,11 +1,11 @@
 frontend:
   image: zhangmz0223/frontend
-  tag: 'ce2fbea'
+  tag: '9b309c5f381a'
   autoscaling:
     averageUtilization: 90
 backend:
   image: zhangmz0223/backend
-  tag: 'ce2fbea'
+  tag: 'fafa2a1dc24a'
   autoscaling:
     averageUtilization: 90
 database:
